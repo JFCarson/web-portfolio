@@ -1,9 +1,15 @@
+export interface DescriptionItem {
+    type: 'p' | 'ul'
+    content: string | string[]
+}
+
+
 export interface Role {
     place: string
     title: string
     start: string
     end?: string
-    description?: string[]
+    description?: DescriptionItem[]
     link?: string
 }
 
