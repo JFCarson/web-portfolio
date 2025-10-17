@@ -1,7 +1,14 @@
-export interface DescriptionItem {
-    type: 'p' | 'ul'
-    content: string | string[]
+export interface ParagraphItem {
+    type: 'p'
+    content: string
 }
+
+export interface ListItem {
+    type: 'ul'
+    content: string[]
+}
+
+export type DescriptionItem = ParagraphItem | ListItem
 
 export interface Role {
     place: string
