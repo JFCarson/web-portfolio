@@ -12,7 +12,7 @@ export type DescriptionItem = ParagraphItem | ListItem
 
 export interface Role {
     place: string
-    title: string
+    title?: string
     start: string
     end?: string
     description?: DescriptionItem[]
