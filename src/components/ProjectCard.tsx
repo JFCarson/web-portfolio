@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 interface Project {
     title: string
-    tech: string[]
+    tech?: string[]
     description?: string
     link?: string
     github?: string
