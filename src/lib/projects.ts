@@ -1,4 +1,12 @@
-const projects: Array = [
+export interface Project {
+  title: string
+  type: 'personal' | 'commercial'
+  description?: string
+  link?: string
+  github?: string
+}
+
+const projects: Project[] = [
     {
         title: 'Portfolio Site',
         type: 'personal',

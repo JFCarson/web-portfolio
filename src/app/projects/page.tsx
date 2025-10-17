@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import projects from '@/lib/projects'
 import ProjectCard from '@/components/ProjectCard'
 
-const personalProjects: Array = projects.filter(
+const personalProjects: Project[] = projects.filter(
     (project) => project.type === 'personal',
 )
-const commercialProjects: Array = projects.filter(
+const commercialProjects: Project[] = projects.filter(
     (project) => project.type === 'commercial',
 )
 
