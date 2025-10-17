@@ -1,7 +1,7 @@
 'use client'
 
 import type { Role } from '@/lib/employment'
-import { employmentHistory } from '@/lib/employment'
+import employmentHistory from '@/lib/employment'
 import { motion } from 'framer-motion'
 
 interface Props {
