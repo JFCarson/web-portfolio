@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import projects from '@/lib/projects'
 import ProjectCard from '@/components/ProjectCard'
+import type { Project } from '@/lib/projects'
 
 const personalProjects: Project[] = projects.filter(
     (project) => project.type === 'personal',
