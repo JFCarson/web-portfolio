@@ -86,7 +86,7 @@ const educationHistory: Role[] = [
     },
     {
         place: 'Misc. Certifications',
-        title: 'Various'
+        title: 'Various',
         start: 'September 2014',
         description: [
             {
