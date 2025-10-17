@@ -5,7 +5,7 @@ export interface Project {
   tech?: string[]
   description?: string
   link?: string
-  github?: string
+  githubLink?: string
   featured?: boolean
 }
 
