@@ -38,7 +38,7 @@ export default function JobCard({ job, index }: Props) {
                 {job.start} – {job.end ?? 'Present'}
             </p>
 
-            {job.description?.map((item: DescriptionItem, i) =>
+            {job.description?.map((item, i) =>
                 item.type === 'p' ? (
                     <p key={i} className="text-gray-600 text-sm mb-2">
                         {item.content}
