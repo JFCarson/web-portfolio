@@ -12,7 +12,7 @@ export type DescriptionItem = ParagraphItem | ListItem
 
 export interface Role {
     place: string
-    title?: string
+    title: string
     start: string
     end?: string
     description?: DescriptionItem[]
@@ -86,6 +86,7 @@ const educationHistory: Role[] = [
     },
     {
         place: 'Misc. Certifications',
+        title: 'Various'
         start: 'September 2014',
         description: [
             {
