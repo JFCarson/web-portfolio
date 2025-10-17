@@ -1,9 +1,12 @@
 export interface Project {
   title: string
   type: 'personal' | 'commercial'
+  for?: string
+  tech?: string[]
   description?: string
   link?: string
   github?: string
+  featured?: boolean
 }
 
 const projects: Project[] = [
