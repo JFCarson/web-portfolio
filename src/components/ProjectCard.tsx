@@ -32,7 +32,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
                 <h3 className="text-gray-500"><b>{project.for}</b></h3>
             )}
             <p className="text-sm text-gray-500 mt-2">
-                {project.tech.join(` ${String.fromCharCode(8226)} `)}
+                {project.tech?.join(` ${String.fromCharCode(8226)} `) ?? ''}
             </p>
 
             {project.description && (
