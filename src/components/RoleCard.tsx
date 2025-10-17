@@ -5,7 +5,7 @@ import employmentHistory from '@/lib/employment'
 import { motion } from 'framer-motion'
 
 interface Props {
-    job: Job
+    job: Role
     index: number
 }
 
