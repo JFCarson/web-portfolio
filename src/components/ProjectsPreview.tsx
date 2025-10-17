@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import projects from '@/lib/projects'
 import ProjectCard from '@/components/ProjectCard'
 

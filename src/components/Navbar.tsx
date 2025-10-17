@@ -6,25 +6,6 @@ import Link from 'next/link'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const menuContainerVariants = {
-    hidden: { opacity: 0, height: 0 },
-    visible: {
-        opacity: 1,
-        height: 'auto',
-        transition: {
-            duration: 0.3,
-            when: 'beforeChildren',
-            staggerChildren: 0.08,
-        },
-    },
-    exit: { opacity: 0, height: 0, transition: { duration: 0.2 } },
-}
-
-const menuItemVariants = {
-    hidden: { opacity: 0, y: -10 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
-}
-
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
 

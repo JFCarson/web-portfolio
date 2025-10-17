@@ -6,7 +6,7 @@ function yearsExperience(): number {
     const startDate = new Date(2019, 6) // Months are 0-indexed, so 6 = July
     const today = new Date()
 
-    let years = today.getFullYear() - startDate.getFullYear()
+    const years = today.getFullYear() - startDate.getFullYear()
 
     return years
 }

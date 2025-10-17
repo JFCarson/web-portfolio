@@ -36,7 +36,7 @@ export default function AboutPage() {
                 transition={{ delay: 0.2, duration: 0.5 }}
                 className="text-gray-700 text-lg md:text-xl leading-relaxed mb-8 text-center"
             >
-                Hi, I'm <span className="text-green-500">Jack</span>, an innovative software engineer specialising in front-end web development, who can
+                Hi, I&apos;m <span className="text-green-500">Jack</span>, an innovative software engineer specialising in front-end web development, who can
                 confidently produce industry-standard systems within tight deadlines. I have meticulous
                 eye for producing not only the best functioning, but the best looking solutions in
                 order to leave a desirable impression upon your clients.
