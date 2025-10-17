@@ -35,7 +35,7 @@ export default function Hero() {
             <motion.a
                 href="/projects"
                 whileHover={{ scale: 1.05 }}
-                className="inline-block mt-8 px-6 py-3 bg-green-600 text-white font-medium rounded-xl shadow hover:bg-blue-700 transition"
+                className="inline-block mt-8 px-6 py-3 bg-green-600 text-white font-medium rounded-xl shadow hover:bg-green-700 transition"
             >
                 View My Work
             </motion.a>
