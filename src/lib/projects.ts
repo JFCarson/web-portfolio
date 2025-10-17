@@ -1,4 +1,4 @@
-const projects: array = [
+const projects: Array = [
     {
         title: 'Portfolio Site',
         type: 'personal',
