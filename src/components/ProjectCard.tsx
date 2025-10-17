@@ -1,14 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-
-interface Project {
-    title: string
-    tech?: string[]
-    description?: string
-    link?: string
-    github?: string
-}
+import type { Project } from '@/lib/projects'
 
 interface ProjectCardProps {
     project: Project
